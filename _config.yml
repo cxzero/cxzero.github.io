@@ -23,4 +23,5 @@ nav:
     - About: ''
   - HTB Cyber Apocalypse 2024:
     - web | LockTalk: content/ctf/htb/cyber-apocalypse-2024/web/LockTalk
+    - web | SerialFlow: content/ctf/htb/cyber-apocalypse-2024/web/SerialFlow
     

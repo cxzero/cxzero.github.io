@@ -4,4 +4,6 @@ permalink: /
 
 # About
 
-Personal blog about security, CTF, CVEs, hacks and learning.
+![](assets/images/profile_.png)
+
+Personal blog about my passion on cyber security, CTF challenges, dissecting CVEs, ethical hacking and learning.

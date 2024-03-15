@@ -1,8 +1,10 @@
 # LockTalk
 
+Date: March 2024
+
 Difficulty: <font color='orange'>Medium</font>
 
-Category: web
+Category: **web**
 
 ## Description
 >In "The Ransomware Dystopia," LockTalk emerges as a beacon of resistance against the rampant chaos inflicted by ransomware groups. In a world plunged into turmoil by malicious cyber threats, LockTalk stands as a formidable force, dedicated to protecting society from the insidious grip of ransomware. Chosen participants, tasked with representing their districts, navigate a perilous landscape fraught with ethical quandaries and treacherous challenges orchestrated by LockTalk. Their journey intertwines with the organization's mission to neutralize ransomware threats and restore order to a fractured world. As players confront internal struggles and external adversaries, their decisions shape the fate of not only themselves but also their fellow citizens, driving them to unravel the mysteries surrounding LockTalk and choose between succumbing to despair or standing resilient against the encroaching darkness.
@@ -16,6 +18,8 @@ To solve the challenge we took advantage of a vulnerability in haproxy version t
 ![](assets/webapp.png)
 
 ### Analyzing the source code
+
+We are given the source code "web_locktalk.zip".
 
 #### 1. haproxy version 2.8.1
 
@@ -66,7 +70,7 @@ We can **bypass that by adding a '#' at the end of the endpoint**: `/api/v1/get_
 
 ![](assets/bypass-haproxy-deny-rule.png)
 
-Using Burp Json Web Tokens plugin we can see the role assigned: "guest".
+Using Burp [JSON Web Tokens](https://portswigger.net/bappstore/f923cbf91698420890354c1d8958fee6) plugin we can see the role assigned: "guest".
 
 ![](assets/jwt-guest.png)
 
