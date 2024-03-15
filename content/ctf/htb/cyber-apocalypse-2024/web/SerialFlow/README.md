@@ -11,7 +11,7 @@ Category: **web**
 
 ## Strategy
 
-
+The foothold for the challenge was understanding that the application is using Memcached in a Flask application and that a known vulnerability can be used to gain remote code execution via unsafe picke deserialization. 
 
 ## Enumeration
 
@@ -35,15 +35,16 @@ Changed value to #a71919: `/set?uicolor=%23a71919`
 
 #### 2. memcached and pylibmc
 
-There is a really interesting [post](https://btlfry.gitlab.io/notes/posts/memcached-command-injections-at-pylibmc/) about memcached command injections at pylibmc python library, which also got for review in the nomination of the [top 10 web hacking techniques of 2023 by Portswigger](https://portswigger.net/research/top-10-web-hacking-techniques-of-2023-nominations-open).
+There is a really interesting [post](https://btlfry.gitlab.io/notes/posts/memcached-command-injections-at-pylibmc/) about **memcached command injections at pylibmc python library**, which also got for review in the nomination of the [top 10 web hacking techniques of 2023 by Portswigger](https://portswigger.net/research/top-10-web-hacking-techniques-of-2023-nominations-open).
 
-![](assets/revshell-target-flag.png)
+![](assets/nominations-open-2023.png)
 
 The [proof of concept](https://github.com/d0ge/proof-of-concept-labs/blob/main/pylibmc-flask-session/application.py) provided in the post is very similar to serialflow:
 1. [requirements.txt](https://github.com/d0ge/proof-of-concept-labs/blob/main/pylibmc-flask-session/requirements.txt) of the PoC has the same versions for Flask, Flask-Session, pylibmc and Werkzeug python libraries.
 2. The `app.py` provides the /set endpoint for saving and / for retrieving values from the session storage at Memcached.
 
 
+![](assets/memcached.png)
 ![](assets/requirements.png)
 
 ```python
