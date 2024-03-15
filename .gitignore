@@ -70,3 +70,6 @@ vendor/
 ########
 *.gem
 Gemfile.lock
+
+# Node
+package-lock.json

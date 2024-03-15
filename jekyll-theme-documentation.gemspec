@@ -11,7 +11,10 @@ Gem::Specification.new do |s|
     f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md)|$)))!i)
   end
 
-  s.add_dependency "jekyll", "~> 3.5"
-  s.add_runtime_dependency "jekyll-seo-tag", "~> 2.2"
-  s.add_runtime_dependency "jekyll-github-metadata", "~> 2.9"
+  s.add_dependency "jekyll", "~> 3.9.4"
+  s.add_runtime_dependency "jekyll-seo-tag", "~> 2.8.0"
+  s.add_runtime_dependency "jekyll-github-metadata", "~> 2.16.1"
+
+  # Fix https://github.com/jekyll/jekyll/pull/8524
+  s.add_dependency "webrick"
 end

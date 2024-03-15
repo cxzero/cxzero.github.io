@@ -12,6 +12,7 @@ remote_theme: marella/jekyll-theme-documentation
 title: cxzero training journey
 owner_name: cxzero
 owner_url: https://github.com/cxzero
+x_url: https://twitter.com/cxzero
 
 toc_min: 2
 toc_max: 3
@@ -21,5 +22,5 @@ nav:
   - Introduction:
     - About: ''
   - HTB Cyber Apocalypse 2024:
-    - challenge X: ctf/htb/cyber-apocalypse-2024/challenge/sample
-    - challenge Y: ctf/htb/cyber-apocalypse-2024/toc
+    - web | LockTalk: content/ctf/htb/cyber-apocalypse-2024/web/LockTalk
+    

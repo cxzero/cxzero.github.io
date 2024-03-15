@@ -12,13 +12,13 @@
   "author": "Ravindra Marella",
   "license": "MIT",
   "devDependencies": {
-    "anchor-js": "^4.1.0",
-    "bootstrap": "^4.1.1",
+    "anchor-js": "^5.0.0",
+    "bootstrap": "^5.3.3",
     "node-sass": "^9.0.0",
-    "primer-base": "^1.7.0",
-    "primer-layout": "^1.4.5",
-    "primer-markdown": "^3.7.5",
-    "primer-navigation": "^1.5.3",
-    "primer-utilities": "^4.9.0"
+    "primer-base": "^2.0.0",
+    "primer-layout": "^2.0.0",
+    "primer-markdown": "^4.0.0",
+    "primer-navigation": "^2.0.0",
+    "primer-utilities": "^5.0.0"
   }
 }
