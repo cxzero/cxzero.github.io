@@ -1,0 +1,25 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - script
+  - src
+
+remote_theme: marella/jekyll-theme-documentation
+
+title: cxzero training journey
+owner_name: cxzero
+owner_url: https://github.com/cxzero
+
+toc_min: 2
+toc_max: 3
+
+permalink: pretty
+nav:
+  - Introduction:
+    - About: ''
+  - HTB Cyber Apocalypse 2024:
+    - challenge X: ctf/htb/cyber-apocalypse-2024/challenge/sample
+    - challenge Y: ctf/htb/cyber-apocalypse-2024/toc
