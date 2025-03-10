@@ -307,7 +307,7 @@ We also try to read the `/etc/shadow`, thus confirming the web application is ru
 ![alt text](assets/image-8.png)
 
 With that knowledge, we try to read the following files in order to exfiltrate the private SSH key of the root user:
-- /root/.ssh/aurhotized_keys
+- /root/.ssh/authorized_keys
 - /root/.ssh/id_rsa
 
 ![alt text](assets/image-9.png)
