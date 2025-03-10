@@ -24,4 +24,6 @@ nav:
   - HTB Cyber Apocalypse 2024:
     - web | LockTalk: content/ctf/htb/cyber-apocalypse-2024/web/LockTalk
     - web | SerialFlow: content/ctf/htb/cyber-apocalypse-2024/web/SerialFlow
-    
+  - HTB Machines:
+    - Cicada: content/ctf/htb/machines/cicada
+    - Chemistry: content/ctf/htb/machines/chemistry
