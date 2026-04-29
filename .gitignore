@@ -73,3 +73,6 @@ Gemfile.lock
 
 # Node
 package-lock.json
+
+# VSCode
+.vscode/

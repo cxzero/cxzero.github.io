@@ -27,3 +27,5 @@ nav:
   - HTB Machines:
     - Cicada: content/ctf/htb/machines/cicada
     - Chemistry: content/ctf/htb/machines/chemistry
+  - WebVerse:
+    - Parcel | Lab: content/webverse/labs/parcel
